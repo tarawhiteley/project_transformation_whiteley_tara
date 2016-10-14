@@ -1,6 +1,7 @@
-# Github
+# Links
+[Live Website](http://tarawhiteley.com//project_transformation_whiteley_tara/)
 
-[Project_Transformation_Whiteley_Tara](https://github.com/tarawhiteley/project_transformation_whiteley_tara/)
+[GitHub](https://github.com/tarawhiteley/project_transformation_whiteley_tara/)
 
 ## Resources
 
