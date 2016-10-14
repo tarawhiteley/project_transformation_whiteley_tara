@@ -1,14 +1,12 @@
 body {
     background: #050505 url(../img/img01.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
     color: #5b5b5b;
 }
 
 h1,
 h2
 h3 {
-    text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
     color: #222222;
@@ -19,98 +17,59 @@ h1 {
 }
 
 h2 {
-    font-size: 2.8em;
+    font-size: 2.4em;
+    text-transform: uppercase;
 }
 
 h3 {
     font-size: 1.6em;
-}
-
-p,
-ul,
-ol {
-    line-height: 180%;
-}
-
-a {
-    color: #5e5e5e;
+    text-transform: uppercase;
 }
 
 #wrapper {
+    width: 100%;
     background: #ffffff url(../img/img05.jpg) repeat;
 }
 
 /* Header */
 #header {
-    width: 1000px;
-    height: 150px;
+    width: 90%;
     margin: auto;
 }
 
 /* Logo */
-#logo {
-    float: left;
-    width: 300px;
-    color: #ffffff;
-}
-
 #logo h1 {
-    line-height: 120px;
     letter-spacing: -2px;
     font-size: 3.8em;
 }
 
-#logo h1 a {
-    color: #1f1f1f;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
-}
-
-#logo p {
-    letter-spacing: -1px;
-    font: normal 18px Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
-    color: #8e8e8e;
-}
-
-#logo p a {
-    color: #8e8e8e;
-}
-
 #logo a {
-    background: none;
     text-decoration: none;
     color: #000000;
 }
 
 /* Menu */
 #menu {
-    float: right;
-    width: 500px;
-    height: 90px;
+    width: 70%;
     margin: auto;
 }
 
 #menu ul {
-    float: right;
-    padding-top: 20px;
     list-style: none;
-    line-height: normal;
 }
 
 #menu li {
     float: left;
+    margin: 0 1px 50px 0;
 }
 
 #menu a {
-    line-height: 100px;
-    margin-right: 1px;
-    padding: 0 20px;
+    padding: 25px;
     text-decoration: none;
     text-align: center;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
+    font-size: 1.3em;
     font-weight: 300;
     color: #1f1f1f;
 }
@@ -122,10 +81,21 @@ a {
     color: #ffffff;
 }
 
+/* Banner */
+#banner img {
+    width: 100%;
+    background: url(../img/img03.png);
+    margin: auto;
+}
+
 /* Content */
 #content {
-    float: right;
-    width: 660px;
+    width: 90%;
+    margin: auto;
+}
+
+#content p {
+    padding: 0 20px;
 }
 
 .post {
@@ -169,7 +139,8 @@ a {
     margin-bottom: 30px;
 }
 
-.more {
+.more,
+.comments {
     float: left;
     width: 88px;
     padding: 5px;
@@ -180,99 +151,33 @@ a {
     text-decoration: none;
 }
 
-.comments {
-    float: left;
-    width: 88px;
-    padding: 5px;
-    background: #222222;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-}
-
 /* Sidebar */
-#sidebar {
-    float: left;
-    width: 270px;
-    padding-top: 30px;
-}
-
 #sidebar ul {
-    margin: 0;
-    padding: 0;
+    margin: auto;
     list-style: none;
 }
 
-#sidebar li ul {
-    padding-bottom: 30px;
-}
-
-#sidebar li li {
+#sidebar li {
     line-height: 40px;
-    border-bottom: 1px solid #e7ebed;
-    border-left: none;
-}
-
-#sidebar li li span {
-    display: block;
-    margin-top: -20px;
-    padding: 0;
-    font-size: 11px;
-    font-style: italic;
-}
-
-#sidebar li li a {
-    padding-left: 20px;
-    background: url(../img/img04.jpg) no-repeat left 50%;
 }
 
 #sidebar h2 {
-    height: 38px;
-    padding-bottom: 30px;
     letter-spacing: -0.5px;
     font-size: 1.8em;
     color: #222222;
 }
 
-#sidebar p {
-    padding: 0 30px 20px 30px;
-    text-align: justify;
-}
-
-#sidebar a {
-    border: none;
-}
-
-#sidebar a:hover {
-    text-decoration: underline;
-}
-
 /* Footer */
 #footer {
-    height: 140px;
     margin: auto;
-    padding: 50px 0 15px 0;
+    padding: 15px 0;
     font-family: 'Abel', sans-serif;
 }
 
 #footer p {
-    margin: 0;
-    padding-top: 10px;
     letter-spacing: 1px;
-    line-height: normal;
-    font-size: 14px;
+    font-size: 1em;
     text-transform: uppercase;
     text-align: center;
     color: #5e5e5e;
-}
-
-#footer a {
-    color: #5e5e5e;
-}
-
-#banner {
-    margin: auto;
-    width: 1000px;
-    height: 340px;
-    background: url(../img/img03.png) no-repeat left bottom;
 }
