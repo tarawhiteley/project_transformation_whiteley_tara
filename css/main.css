@@ -169,6 +169,10 @@ h3 {
     text-decoration: none;
 }
 
+.strong {
+    font-weight: bold;
+}
+
 /* Sidebar */
 #sidebar ul {
     margin: auto;
@@ -204,6 +208,7 @@ h3 {
 
 /* Footer */
 #footer {
+    clear: both;
     margin: auto;
     padding: 15px 0;
     font-family: 'Abel', sans-serif;
