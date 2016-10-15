@@ -17,12 +17,12 @@ h1 {
     font-size: 2em;
 }
 
-h2 {
+h3 {
     font-size: 2.4em;
     text-transform: uppercase;
 }
 
-h3 {
+h4 {
     font-size: 1.6em;
     text-transform: uppercase;
 }
@@ -39,12 +39,12 @@ h3 {
 }
 
 /* Logo */
-#logo h1 {
+#header h1 {
     letter-spacing: -2px;
     font-size: 3.8em;
 }
 
-#logo a {
+#header a {
     text-decoration: none;
     color: #000000;
 }
@@ -220,4 +220,15 @@ h3 {
     text-transform: uppercase;
     text-align: center;
     color: #5e5e5e;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
